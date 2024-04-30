@@ -56,4 +56,14 @@
 </ol>
 <p dir="auto"><em>"Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque".</em></p>
 <p dir="auto">Os campos em [ ] devem ser alterados pelas informações que forem inseridas pelos usuários.</p>
-</article></div><button hidden="" data-hotkey="Control+a"></button></section></div>
+
+
+
+<p>Para gerar a documentação foi utilizado o comando:</p>
+
+```
+javadoc -endecoding UTF-8 -docendecoding ISO-8859-1 -d ./docs src/*.java 
+```
+</article></div><button hidden="" data-hotkey="Control+a"></button></section>
+
+</div>

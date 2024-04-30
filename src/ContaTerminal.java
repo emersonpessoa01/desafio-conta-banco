@@ -18,12 +18,12 @@ public class ContaTerminal {
         System.out.println("Por favor, digite o valor de seu saldo: ");
         double saldo = Scanner.nextDouble();
 
-        System.err.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-");
+        System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-");
         System.out.println("Olá " + nome + ",obrigado por criar uma conta em nosso banco!");
         System.out.println("Sua agência é " + agencia + ",");
         System.out.println("Conta corrente " + conta + " e seu saldo é " + saldo + ",");
         System.out.println("Já está disponível para saque.");
-        System.err.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-");
+        System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-");
 
     }
 }
